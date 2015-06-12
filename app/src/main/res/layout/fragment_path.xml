@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.bunty.myapplication.Fragments.Fragmentpath">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECT UR DESTINATION"
+        android:id="@+id/destinationstop" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="find the nearest stop"
+        android:id="@+id/nearstop"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
